@@ -6,6 +6,7 @@
 *.jpg
 *.jpeg
 !examples/**/*.png
+!.github/social-preview.png
 
 # Temporary files
 temp_*

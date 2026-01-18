@@ -1,7 +1,7 @@
 {
   "name": "github-social",
-  "version": "0.1.0",
-  "description": "Generate social preview images for GitHub repositories by analyzing project intent and purpose",
+  "version": "0.2.0",
+  "description": "Optimize GitHub repository presentation with social preview images and engaging metadata (descriptions, topics)",
   "author": {
     "name": "zircote"
   },

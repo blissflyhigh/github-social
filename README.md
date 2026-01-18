@@ -2,17 +2,23 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet)](https://claude.ai/claude-code)
-[![Version](https://img.shields.io/badge/version-0.1.0-green.svg)](.claude-plugin/plugin.json)
+[![Version](https://img.shields.io/badge/version-0.2.0-green.svg)](.claude-plugin/plugin.json)
 
-A Claude Code plugin that generates social preview images for GitHub repositories by analyzing project intent and purpose.
+A Claude Code plugin that optimizes GitHub repository presentation by analyzing project intent and purpose.
 
 ## Features
 
+### Social Preview Images
 - Analyzes project files (README, package.json, CLAUDE.md, etc.) to understand purpose
 - Generates detailed image prompts capturing the project's spirit
 - Supports multiple image generation providers (DALL-E, Stable Diffusion, etc.)
 - Outputs images meeting GitHub's social preview requirements (1280x640px, <1MB)
-- Works with zero configuration (outputs prompt only) or with optional settings
+
+### Repository Metadata
+- Generates engaging, SEO-friendly repository descriptions (max 350 chars)
+- Suggests relevant topics/labels for discoverability (max 20 topics)
+- Can apply changes directly via `gh` CLI or output for manual review
+- Works with zero configuration
 
 ## Installation
 
@@ -102,11 +108,21 @@ The plugin generates images that:
 
 ### social-preview
 
-The core skill that analyzes your project and generates social preview images. Triggered by:
+Analyzes your project and generates social preview images. Triggered by:
 - "generate social preview"
 - "create github social image"
 - "repository preview image"
 - "og image for this project"
+
+### repo-metadata
+
+Generates optimized repository descriptions and topics. Triggered by:
+- "update repo description"
+- "improve repository description"
+- "generate topics"
+- "add labels to repo"
+- "optimize github metadata"
+- "make repo more discoverable"
 
 ## Commands
 
@@ -114,6 +130,7 @@ The core skill that analyzes your project and generates social preview images. T
 |---------|-------------|
 | `/social-preview` | Generate a social preview image for the current project |
 | `/social-preview:setup` | Interactive setup wizard for configuration |
+| `/repo-metadata` | Generate optimized description and topics (use `--apply` to update GitHub) |
 
 ## License
 

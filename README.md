@@ -1,12 +1,16 @@
 # github-social
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet)](https://claude.ai/claude-code)
-[![Version](https://img.shields.io/badge/version-0.4.0-green.svg)](.claude-plugin/plugin.json)
-[![GitHub Stars](https://img.shields.io/github/stars/zircote/github-social?style=social)](https://github.com/zircote/github-social)
-[![GitHub Issues](https://img.shields.io/github/issues/zircote/github-social)](https://github.com/zircote/github-social/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/zircote/github-social)](https://github.com/zircote/github-social/commits)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/zircote/github-social/pulls)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/code)
+[![Version](https://img.shields.io/badge/version-0.4.0-green.svg?style=for-the-badge)](.claude-plugin/plugin.json)
+[![GitHub Stars](https://img.shields.io/github/stars/zircote/github-social?style=for-the-badge&logo=github)](https://github.com/zircote/github-social/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/zircote/github-social?style=for-the-badge&logo=github)](https://github.com/zircote/github-social/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/zircote/github-social?style=for-the-badge&logo=github)](https://github.com/zircote/github-social/commits)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](https://github.com/zircote/github-social/pulls)
+
+<p align="center">
+  <img src=".github/social-preview.png" alt="github-social - Claude Code Plugin for GitHub Repository Optimization" width="800">
+</p>
 
 A Claude Code plugin that optimizes GitHub repository presentation by analyzing project intent and purpose.
 

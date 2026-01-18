@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blueviolet)](https://claude.ai/claude-code)
-[![Version](https://img.shields.io/badge/version-0.2.0-green.svg)](.claude-plugin/plugin.json)
+[![Version](https://img.shields.io/badge/version-0.4.0-green.svg)](.claude-plugin/plugin.json)
 [![GitHub Stars](https://img.shields.io/github/stars/zircote/github-social?style=social)](https://github.com/zircote/github-social)
 [![GitHub Issues](https://img.shields.io/github/issues/zircote/github-social)](https://github.com/zircote/github-social/issues)
 [![Last Commit](https://img.shields.io/github/last-commit/zircote/github-social)](https://github.com/zircote/github-social/commits)
@@ -23,6 +23,13 @@ A Claude Code plugin that optimizes GitHub repository presentation by analyzing 
 - Suggests relevant topics/labels for discoverability (max 20 topics)
 - Can apply changes directly via `gh` CLI or output for manual review
 - Works with zero configuration
+
+### README Enhancement
+- Generates marketing badges (shields.io) based on project analysis
+- Creates NotebookLM-style infographic prompts capturing architecture and features
+- Supports multiple badge types: version, build, license, downloads, language, and more
+- Hybrid infographic style adapts to project type (CLI, library, framework, app)
+- Direct README.md modification with intelligent badge section management
 
 ## Installation
 
@@ -128,13 +135,25 @@ Generates optimized repository descriptions and topics. Triggered by:
 - "optimize github metadata"
 - "make repo more discoverable"
 
+### readme-enhance
+
+Enhances README with badges and infographics. Triggered by:
+- "enhance readme"
+- "add badges to readme"
+- "create readme infographic"
+- "improve readme marketing"
+- "add shields.io badges"
+- "generate project infographic"
+
 ## Commands
 
 | Command | Description |
 |---------|-------------|
 | `/social-preview` | Generate a social preview image for the current project |
-| `/social-preview:setup` | Interactive setup wizard for configuration |
+| `/github-social:setup` | Interactive setup wizard for configuration |
 | `/repo-metadata` | Generate optimized description and topics (use `--apply` to update GitHub) |
+| `/readme-enhance` | Add marketing badges and infographic to README |
+| `/github-social:all` | Run all skills in sequence (metadata, social preview, README enhancement) |
 
 ## License
 

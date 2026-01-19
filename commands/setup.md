@@ -1,4 +1,5 @@
 ---
+name: github-social:setup
 description: Interactive setup wizard for github-social configuration
 allowed-tools: Read, Write, Bash, AskUserQuestion
 ---

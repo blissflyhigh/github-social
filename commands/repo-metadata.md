@@ -1,6 +1,7 @@
 ---
+name: repo-metadata
 description: Generate optimized repository description and topics for GitHub
-argument-hint: [--apply]
+argument-hint: "[--apply]"
 allowed-tools: Read, Glob, Grep, Bash
 ---
 

@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **[setup]**: Updated setup wizard with SVG-first provider options
+  - SVG now shown as first (recommended) option
+  - Added Gemini provider option
+  - Removed deprecated stable-diffusion option
+  - Added dark_mode and upload_to_repo configuration
+- **[commands]**: Added explicit `name` fields to all command files
+  - `github-social:all` and `github-social:setup` use prefixed names
+  - Prevents conflicts with other plugins
+- **[examples]**: Removed undocumented `style` field from AI provider examples
+  - Only `svg_style` is a valid config option (for SVG provider)
+
 ## [0.5.0] - 2025-01-18
 
 ### Added

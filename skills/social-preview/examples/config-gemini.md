@@ -9,7 +9,6 @@ Example configuration for using Google's Gemini API for image generation.
 ---
 provider: gemini
 api_key_env: GEMINI_API_KEY
-style: minimalist
 output_path: .github/social-preview.png
 dimensions: 1280x640
 include_text: true

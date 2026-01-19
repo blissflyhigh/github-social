@@ -9,11 +9,9 @@ Create `.claude/github-social.local.md` in your project:
 ```yaml
 ---
 provider: manual
-style: illustrated
 output_path: .github/social-preview.png
 dimensions: 1280x640
 include_text: true
-text_content: auto
 colors: light
 ---
 

@@ -10,7 +10,6 @@ Create `.claude/github-social.local.md` in your project:
 ---
 provider: dalle-3
 api_key_env: OPENAI_API_KEY
-style: abstract
 output_path: .github/social-preview.png
 dimensions: 1280x640
 include_text: false
@@ -79,7 +78,7 @@ Each generation costs approximately $0.08 (HD quality).
 **"Content policy violation"**
 - The generated prompt may contain flagged content
 - Claude will retry with a modified prompt
-- If persistent, try changing style to "minimalist"
+- If persistent, add style guidance in the markdown section of your config
 
 **"Rate limit exceeded"**
 - Wait a moment and try again

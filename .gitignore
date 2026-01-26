@@ -1,6 +1,6 @@
 # Local configuration files (may contain user preferences)
 .claude/*.local.md
-
+.fastembed_cache/
 # Generated images during testing
 *.png
 *.jpg

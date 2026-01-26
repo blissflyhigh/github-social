@@ -5,6 +5,10 @@ argument-hint: "[--apply] [--dry-run] [--provider svg|dalle-3|gemini|manual] [--
 allowed-tools: ["Read", "Write", "Edit", "Glob", "Grep", "Bash", "MCPSearch", "mcp__github__create_or_update_file", "Skill"]
 ---
 
+## Memory
+
+Capture after: `/mnemonic:capture patterns "{REPO} GitHub Social full enhancement"`
+
 # Complete GitHub Social Enhancement
 
 Run all github-social skills in sequence to fully optimize a repository's presentation:
@@ -197,21 +201,3 @@ If `--apply` flag or user confirms:
 - `/readme-enhance` - Enhance README only
 - `/github-social:setup` - Configure plugin settings
 
-## Post-Enhancement: Capture to Mnemonic
-
-After completing all enhancements, capture the configuration:
-
-```bash
-/mnemonic:capture patterns "GitHub Social: {REPO} - full enhancement applied"
-```
-
-Include:
-- Provider used (svg, dalle-3, gemini)
-- Image dimensions and style
-- Badges added
-- Dark mode configuration
-
-This enables future recall for:
-- Consistent styling across repositories
-- Reusing successful configurations
-- Tracking enhancement history

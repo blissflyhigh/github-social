@@ -1,9 +1,13 @@
 ---
-name: social-preview
+name: github-social:social-preview
 description: Generate a social preview image for the current GitHub repository
 argument-hint: "[--provider svg|dalle-3|gemini|manual] [--style minimal|geometric|illustrated] [--dark-mode] [--upload]"
 allowed-tools: Read, Glob, Grep, Bash, Write, mcp__github__create_or_update_file, mcp__github__get_file_contents, Skill
 ---
+
+## Memory
+
+Capture after: `/mnemonic:capture patterns "{REPO} social preview {PROVIDER} style"`
 
 Generate a social preview image for this GitHub repository that captures the project's spirit and purpose.
 
@@ -164,21 +168,3 @@ If manual upload needed:
 
 The image will appear when the repository is shared on social media platforms.
 
-## Post-Generation: Capture to Mnemonic
-
-After generating the social preview, capture the configuration:
-
-```bash
-/mnemonic:capture patterns "Social Preview: {REPO} - {PROVIDER} style"
-```
-
-Include:
-- Provider used (svg, dalle-3, gemini)
-- Style selected (minimal, geometric, illustrated)
-- Dimensions and file sizes
-- Dark mode configuration
-
-This enables future recall for:
-- Consistent branding across repositories
-- Reusing successful prompts
-- Tracking generation history

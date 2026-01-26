@@ -1,9 +1,13 @@
 ---
-name: readme-enhance
+name: github-social:readme-enhance
 description: Enhance README.md with marketing badges and a NotebookLM-style infographic
 argument-hint: "[--provider svg|dalle-3|gemini|manual] [--badges-only] [--infographic-only] [--dark-mode] [--dry-run]"
 allowed-tools: ["Read", "Write", "Edit", "Glob", "Grep", "Bash", "mcp__github__create_or_update_file", "Skill"]
 ---
+
+## Memory
+
+Capture after: `/mnemonic:capture patterns "{REPO} README enhancement badges and infographic"`
 
 # README Enhancement Command
 
@@ -174,16 +178,3 @@ Display:
 - Custom badges in your README are preserved during updates
 - Use `--dark-mode` for repositories used in both light and dark GitHub themes
 
-## Post-Enhancement: Capture to Mnemonic
-
-After enhancing the README, capture the configuration:
-
-```bash
-/mnemonic:capture patterns "README Enhancement: {REPO} - badges and infographic"
-```
-
-Include:
-- Badge types generated
-- Infographic style and provider
-- Dark mode configuration
-- Custom badges preserved

